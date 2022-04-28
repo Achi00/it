@@ -150,13 +150,13 @@ const Hamburger = ({state}) => {
                   <li><Link
                   onMouseEnter={e => handleHover(e)}
                   onMouseOut={e => handleHoverExit(e)}
-                  ref={el => (line1 = el)} to="/about">About</Link></li>
+                  ref={el => (line1 = el)} to="/">Home</Link></li>
                 </ul>
                 <ul>
                   <li><Link
                   onMouseEnter={e => handleHover(e)}
                   onMouseOut={e => handleHoverExit(e)}
-                  ref={el => (line2 = el)} to="/contact">Contact</Link></li>
+                  ref={el => (line2 = el)} to="/about">About</Link></li>
                 </ul>               
               </nav>
               <div ref={el => (info = el)} className="info">

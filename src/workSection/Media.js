@@ -7,7 +7,7 @@ export default ({ url, active, x, y }) => {
       src={url}
       alt="work media"
       style={{
-        transform: `translate(${x - 50}px, ${y + 900}px)`
+        transform: `translate(${x - 50}px, ${y - 100}px)`
       }}
     />
   );

@@ -6,8 +6,9 @@
     margin-left: 10px;
 }
 
-main{
+.main{
     user-select: none;
+    overflow-x: hidden;
 }
 
 .span1{
@@ -28,7 +29,7 @@ main{
     text-decoration: none;
     text-transform: uppercase;
     letter-spacing: 2px;
-    font-size: 20px;
+    font-size: 18px;
     overflow: hidden;
     transition: 0.5s;
     -webkit-box-reflect: below 1px linear-gradient(transparent, #0003);
@@ -138,11 +139,11 @@ main{
     display: flex;
     -webkit-box-align: center;
     align-items: center;
-    width: 100px;
+    width: 90px;
   }
   
   .service {
-    width: 85px;
+    width: 80px;
     background: #fff;
     margin: 10px;
     padding: 10px;

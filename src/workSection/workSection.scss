@@ -1,14 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Audiowide&family=Bebas+Neue&family=Dancing+Script:wght@700&family=Dongle:wght@700&family=Fugaz+One&family=Hubballi&family=Inter:wght@900&family=Italiana&family=Kanit:wght@100;400&family=Lato&family=League+Spartan:wght@100&family=Lobster&family=Monoton&family=Montserrat:wght@200&family=Oswald:wght@500&family=Pacifico&family=Press+Start+2P&family=Questrial&family=Roboto+Mono:wght@100&family=Roboto:wght@700&family=Rubik:wght@600&family=Russo+One&family=Secular+One&family=Syncopate:wght@700&family=Train+One&family=Ubuntu:wght@300&family=Varela+Round&display=swap');
 .page-wrapper {
     min-height: 100vh;
     width: 100%;
-    background: #eee;
     padding: 0 100px;
-  
+    font-family: 'Courier New', Courier, monospace;
     display: flex;
     align-items: center;
-  
+    font-family: 'Syncopate', sans-serif;
     box-sizing: border-box;
     position: relative;
+    color: red;
   }
   
   .project-list {
@@ -44,16 +45,16 @@
     
     .project-title {
       transition: opacity .35s cubic-bezier(0.77, 0, 0.175, 1);
-      font-size: 80px;
-      color: #eee;
+      font-size: 5.5vw;
+      color: red;
       font-weight: 300;
       z-index: 2;
   
       span {
-        color: #eee;
+        color: red;
         &::after {
           color: #eee;
-          content: ',';
+          content: '|';
         }
       }
     }

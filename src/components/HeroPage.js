@@ -4,7 +4,7 @@ import "./Heropage.scss"
 export default function Example() {
   return (
 
-      <main>
+      <main className="main">
         <div>
           <div className="logo">IT.</div>
           <div>
